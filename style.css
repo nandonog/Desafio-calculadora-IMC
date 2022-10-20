@@ -1,0 +1,106 @@
+ * {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    /* background-image: url('imagem/imagem-fundo-imc.jpg'); */
+    background-image: linear-gradient(to bottom, black, lightgray);
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(172, 172, 172), rgb(65, 65, 65) ) ;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px black;
+}
+ input {
+    text-align: center;
+    padding: 10px;
+    width: 178px;
+    color: black;
+    font-weight: bold;
+}
+
+#resultado {
+    background-color: black;
+    color: rgb(172,172,172);
+    width: 75%;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.411);
+}
+#resultado > p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+}
+#nome::placeholder {
+    font-weight: normal;
+    color: rgb(207, 207, 207);
+}
+#altura::placeholder {
+    font-weight: normal;
+    color: rgb(207, 207, 207);
+}
+#peso::placeholder {
+    font-weight: normal;
+    color: rgb(207, 207, 207);
+}
+
+#btn {
+    padding: 6px;
+    border: none;
+    background-color: black;
+    color: rgb(172, 172, 172);
+    height: 30px;
+    width:281px;
+    border-radius: 5px;
+}
+#btn:hover {
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    font: bold 1.2rem sans-serif;
+    border-bottom: solid 5px black;
+    margin-bottom: 20px;
+}
+
+.name {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+.altura {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.peso {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
